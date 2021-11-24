@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "esnext",
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "declaration": true,
+    "declarationDir": "./types",
+    "resolveJsonModule": true,
+    "rootDir": ".",
+    "baseUrl": ".",
+    "jsx": "preserve",
+    "skipLibCheck": true,
+    "noUnusedLocals": true,
+    "paths": {
+      "@vueuse/shared": ["./src/shared/index.ts"],
+      "@vueuse/shared/*": ["./src/shared/*"],
+      "@vueuse/core": ["./src/core/index.ts"],
+      "@vueuse/core/*": ["./src/core/*"]
+    }
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/**/*.test.ts",
+    "**/**/*.stories.tsx",
+    "**/**/*.md",
+    "**/dist",
+    "src/.test",
+    "src/_docs"
+  ]
+}

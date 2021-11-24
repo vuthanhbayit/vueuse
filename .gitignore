@@ -1,0 +1,12 @@
+.DS_Store
+.idea
+.nuxt
+dist
+node_modules
+src/*/LICENSE
+src/contributing.md
+src/core/indexes.json
+src/core/README.md
+src/recently-updated.md
+types
+indexes.json
