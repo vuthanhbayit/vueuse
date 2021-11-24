@@ -87,5 +87,11 @@
     "@vue/composition-api": {
       "optional": true
     }
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
